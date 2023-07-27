@@ -1,0 +1,26 @@
+body{
+  background-color: rgb(110, 90, 226);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.animals-list{
+  margin: 0 auto;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.animal_page{
+  display: flex;
+  flex-direction: column;
+}
+.animal_page_img{
+  width: 700px;
+}
+.like:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
